@@ -1,0 +1,43 @@
+[
+    {
+      "headline": "Biden Announces New Climate Change Initiatives",
+      "true_label": "POLITICS"
+    },
+    {
+      "headline": "Google Unveils Latest AI Research Breakthrough",
+      "true_label": "TECH"
+    },
+    {
+      "headline": "Stock Market Sees Major Gains Amidst Economic Recovery",
+      "true_label": "BUSINESS"
+    },
+    {
+      "headline": "Scientists Discover Potential New Treatment for Cancer",
+      "true_label": "HEALTH"
+    },
+    {
+      "headline": "World Cup Finals: Argentina Beats France in Thriller",
+      "true_label": "SPORTS"
+    },
+    {
+      "headline": "NASA Confirms Water Ice Found on Mars Surface",
+      "true_label": "SCIENCE"
+    },
+    {
+      "headline": "Supreme Court Rules on Free Speech Case",
+      "true_label": "POLITICS"
+    },
+    {
+      "headline": "Meta Launches New Virtual Reality Platform",
+      "true_label": "TECH"
+    },
+    {
+      "headline": "Pfizer Releases Positive Results from COVID-19 Booster Study",
+      "true_label": "HEALTH"
+    },
+    {
+      "headline": "Oil Prices Drop Amid Global Supply Surge",
+      "true_label": "BUSINESS"
+    }
+  ]
+  

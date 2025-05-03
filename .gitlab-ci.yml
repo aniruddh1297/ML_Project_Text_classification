@@ -1,0 +1,32 @@
+stages:
+  - lint
+  - build
+
+lint:
+  stage: lint
+  image: python:3.12
+  before_script:
+    - pip install black
+  script:
+    - black --check app/
+  only:
+    - main
+
+build:
+  stage: build
+  image: docker/compose:latest
+  services:
+    - docker:dind
+  variables:
+    DOCKER_DRIVER: overlay2
+  before_script:
+    - apk add --no-cache curl
+  script:
+    - docker-compose --version
+    - docker-compose up -d --build
+    - sleep 30
+    - docker-compose exec -T app curl -f http://localhost:8000/health
+    - docker-compose exec -T app pytest tests/ -m "fast" --maxfail=1 --disable-warnings -q
+    - docker-compose down
+  only:
+    - main

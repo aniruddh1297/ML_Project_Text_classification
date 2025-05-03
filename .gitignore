@@ -1,0 +1,37 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+_MACOSX/
+.env
+.venv/
+venv/
+env/
+
+
+# ========================
+# FastAPI / Uvicorn
+# ========================
+*.db
+*.sqlite3
+
+# ========================
+# Model Artifacts
+# ========================
+*.pkl
+*.joblib
+*.sav
+*.h5
+model.pkl
+news_model.pkl
+
+
+# ========================
+# System & IDE
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+

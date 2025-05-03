@@ -127,5 +127,5 @@ Model generalizes well and shows strong performance on unseen data.
 - GitLab for robust CI/CD pipelines
 
 **🌟 Author**
-YouGov Assignment - Completed by Aniruddh Sahukar Srinvas
+by Aniruddh Sahukar Srinvas
 
